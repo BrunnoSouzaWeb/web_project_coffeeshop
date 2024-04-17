@@ -136,7 +136,98 @@
             </div>
           </div>
         </section>
-        <section class="reservation" id="reservation"></section>
+
+        <section class="reservation" id="reservation">
+          <h2 class="reservation__title">Reservar uma mesa</h2>
+          <form class="form reservation__form">
+            <fieldset class="form reservation__form-data">
+              <label
+                for="nome"
+                class="reservation__form reservation__form-label"
+              >
+                Nome*
+              </label>
+
+              <input
+                type="text"
+                class="reservation__form reservation__form-input"
+                id="nome"
+                name="nome"
+                placeholder="Nome"
+                required
+              />
+
+              <label
+                for="numero_convidados"
+                class="reservation__form reservation__form-label"
+              >
+                Número de Convidados*
+              </label>
+
+              <input
+                type="number"
+                class="reservation__form reservation__form-input"
+                id="numero_convidados"
+                name="numero_convidados"
+                placeholder="1-8"
+                min="1"
+                max="8"
+                required
+              />
+
+              <label
+                for="data-hora"
+                class="reservation__form reservation__form-label"
+              >
+                Data e Hora*
+              </label>
+
+              <input
+                type="date"
+                class="reservation__form reservation__form-input"
+                id="data-hora"
+                name="data-hora"
+                required
+              />
+
+              <label
+                for="mail"
+                class="reservation__form reservation__form-label"
+              >
+                Seu e-mail*
+              </label>
+
+              <input
+                type="email"
+                class="reservation__form reservation__form-input"
+                id="mail"
+                name="mail"
+                placeholder="email@email.com"
+                required
+              />
+
+              <button
+                type="submit"
+                class="reservation__form reservation__form-buton"
+              >
+                Reservar uma mesa
+              </button>
+
+              <label
+                for="caixa_de_concordancia"
+                class="reservation__label reservation__label_check"
+              >
+                <input
+                  type="checkbox"
+                  name="opcao"
+                  id="caixa_de_concordancia"
+                  class="reservation__data reservation__data_check"
+                  value="caixa_de_concordancia"
+                />Eu concordo com os termos de uso
+              </label>
+            </fieldset>
+          </form>
+        </section>
       </main>
       <footer class="footer"></footer>
     </div>
