@@ -10,7 +10,6 @@
     <meta name="author" content="Brunno Souza" />
     <meta name="keywords" content="html, css, javascript" />
     <title>Café_Projeto_4</title>
-    <link rel="stylesheet" href="./vendor/normalize.css" />
     <link rel="stylesheet" href="./pages/index.css" />
     <link rel="shortcut icon" href="favicon.ico" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
@@ -153,7 +152,7 @@
                 class="reservation__form reservation__form-input"
                 id="nome"
                 name="nome"
-                placeholder="Nome"
+                placeholder="Nome e sobrenome"
                 required
               />
 
@@ -229,7 +228,42 @@
           </form>
         </section>
       </main>
-      <footer class="footer"></footer>
+      <footer class="footer" id="footer">
+        <div class="footer__content">
+          <div class="footer__column">
+            <img
+              src="./images/logo_coffeeshop_light.svg"
+              alt="Logotipo da TripleTen"
+              class="footer__logo"
+            />
+          </div>
+          <div class="footer__circle"></div>
+          <div class="footer__social">
+            <h4 class="footer__social-heading">Mídia social</h4>
+            <ul class="footer__list">
+              <li class="footer__list-item">
+                <a href="#" class="footer__social-link">
+                  <img
+                    src="./images/facebook_white.svg"
+                    alt="Icone-Facebook"
+                    class="footer__social-icon"
+                  />Facebook
+                </a>
+              </li>
+              <li class="footer__list-item">
+                <a href="#" class="footer__social-link">
+                  <img
+                    src="./images/instagram_white.svg"
+                    alt="Icone-Instagram"
+                    class="footer__social-icon"
+                  />Instagram
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <p class="footer__copyright">© 2023 Brunno Souza</p>
+      </footer>
     </div>
   </body>
 </html>
