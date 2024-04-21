@@ -11,7 +11,6 @@
   display: flex;
   justify-content: space-between;
   margin-bottom: 108px;
-  position: relative;
 }
 
 .footer__logo {
@@ -81,8 +80,6 @@
 }
 
 .footer__copyright {
-  margin-top: 108px;
-  margin-bottom: 60px;
   font-family: "Inter";
   font-style: normal;
   font-weight: normal;
