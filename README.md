@@ -1,15 +1,19 @@
-# CAFÉ ESPECIAL na Biblioteca Triple Peaks
+# "Triple Peaks Library Café"
 
-Este projeto tem por finalidade construir uma página web aonde será
-possível acessar o café da Biblioteca Triple Peaks.
+This project is a  website for the "Triple Peaks Library Café", designed to provide users with information about the café and allow table reservations.
 
-Partindo de um repositório git vazio foi criado um nova página HTML
-e vinculado folhas de estilos e fontes.
+Starting from an empty Git repository, the project was built using semantic HTML and CSS, with structured sections and external integrations.
 
-Em seguida duas novas seções foram criadas: Cabeçalho e Receitas. Nesta
-última incorporando vídeos do YouTube de duas receitas (sugestões).
+### Features
+*	Structured multi-section layout
+*	Header and navigation section
+*	Recipes section with embedded YouTube videos
+*	Reservation form for booking tables
+*	Footer with additional information
+### Technologies used
+*	HTML5 (semantic structure)
+*	CSS3 (layout and styling)
+*	Embedded media (YouTube integration)
+  
+This project demonstrates foundational skills in building structured, web pages with interactive elements and external content integration.
 
-Na seqência, uma terceira seção foi criada com um formulário para reservar
-uma mesa no café da Biblioteca.
-
-Por fim, um rodapé foi colocado.
